@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+
+    <h2>Halaman Login</h2>
+<p>Silakan masukkan username dan password untuk masuk.</p>
+
+<form>
+  <input type="text" placeholder="Username"><br><br>
+  <input type="password" placeholder="Password"><br><br>
+  <button type="button" onclick="login()">Login</button>
+</form>
+
+    <script>
+        function login() {
+            alert("Login Berhasil!");
+            window.location.href = "index.html";
+        }
+    </script>
+
+</body>
+</html>
