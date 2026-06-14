@@ -6,8 +6,13 @@
 <body>
 
     <h2>Halaman Login</h2>
+<p>Silakan masukkan username dan password untuk masuk.</p>
 
-    <button onclick="login()">Login</button>
+<form>
+  <input type="text" placeholder="Username"><br><br>
+  <input type="password" placeholder="Password"><br><br>
+  <button type="button" onclick="login()">Login</button>
+</form>
 
     <script>
         function login() {
