@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitur Edit Data - Yaser Aldifa Nail</title>
+</head>
+<body>
+
+    <h1>Fitur Edit Data</h1>
+    <h3>Yaser Aldifa Nail - 231011701288</h3>
+
+    <hr>
+
+    <form>
+        <label for="nama">Nama Lengkap:</label><br>
+        <input type="text" id="nama" value="Yaser Aldifa Nail"><br><br>
+
+        <label for="nim">NIM:</label><br>
+        <input type="text" id="nim" value="231011701288"><br><br>
+
+        <label for="prodi">Program Studi:</label><br>
+        <input type="text" id="prodi" value="Teknik Informatika"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" value="yaser@example.com"><br><br>
+
+        <button type="submit">Simpan Perubahan</button>
+        <button type="reset">Batal</button>
+    </form>
+
+    <hr>
+
+    <p>
+        Halaman ini digunakan untuk mengubah atau memperbarui data anggota
+        yang telah tersimpan pada sistem.
+    </p>
+
+</body>
+</html>
